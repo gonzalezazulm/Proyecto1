@@ -12,6 +12,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { NotpagefoundComponent } from './pages/notpagefound/notpagefound.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { ProgramacionComponent } from './pages/programacion/programacion.component';
+import { RadioComponent } from './pages/radio/radio.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { HeaderComponent } from './header/header.component';
     AboutComponent,
     NotpagefoundComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    ProgramacionComponent,
+    RadioComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,34 @@
+body {
+    background: url(../../../assets/fondo2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+table {
+    border: 2px solid rgba(255, 255, 255, 0);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 20px;    
+    width: 60%; 
+    color: #fff;
+    margin-top: 4%;
+ }
+
+ th {     
+  font-size: 20px;     
+  font-weight: 400;    
+  background: #4b6585d5;
+  border-top: 4px solid #353638;    
+  border-bottom: 1px solid rgba(255, 255, 255, 0); 
+  color: rgb(255, 255, 255); 
+}
+td {    
+  padding: 8px;     
+  background: #5552509f;     
+  border-bottom: 1px solid #fff;
+  color: rgb(255, 255, 255);    
+  border-top: 1px solid transparent; 
+}
+tr:hover td { 
+  background: #717da8a6; 
+  color: rgb(214, 214, 219); 
+}
