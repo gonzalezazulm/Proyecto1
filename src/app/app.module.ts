@@ -14,6 +14,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { ProgramacionComponent } from './pages/programacion/programacion.component';
 import { RadioComponent } from './pages/radio/radio.component';
+import { FacebookComponent } from './pages/facebook/facebook.component';
+import { YoutubeComponent } from './pages/youtube/youtube.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { RadioComponent } from './pages/radio/radio.component';
     FooterComponent,
     HeaderComponent,
     ProgramacionComponent,
-    RadioComponent
+    RadioComponent,
+    FacebookComponent,
+    YoutubeComponent
   ],
   imports: [
     BrowserModule,

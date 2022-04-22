@@ -4,13 +4,16 @@ body {
     color: #fff;
     text-align: center;
 }
+
 table {
     border: 2px solid rgba(255, 255, 255, 0);
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     font-size: 20px;    
     width: 60%; 
     color: #fff;
-    margin-top: 4%;
+    margin-top: 2%;
+    border-collapse:separate; 
+    border-spacing: 12px;
  }
 
  th {     
