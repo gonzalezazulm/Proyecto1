@@ -3,6 +3,7 @@ body {
     background-size: cover;
     color: #fff;
     text-align: center;
+    font-variant: small-caps;
 }
 
 table {
